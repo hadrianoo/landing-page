@@ -1,0 +1,180 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* header ------------------ */
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 24px 200px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0;
+    gap: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.two h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.two p,
+.one a {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.two img {
+
+    width: 400px;
+    height: auto;
+
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.wiki-button {
+    background-color: #3882f6;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+/* content ---------------------- */
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+figure.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+}
+
+figure.item img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 12px;
+
+}
+
+.caption {
+    display: block;
+}
+
+div.more-info {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: light italic;
+    font-size: 36px;
+    padding: 96px 300px;
+}
+
+.more-info h3 {
+    text-align: right;
+}
+
+/* sound ------------------------------ */
+
+div.sound {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 100px 250px;
+    padding: 24px 90px;
+}
+
+.sound h4 {
+    font-size: 36px;
+    margin: auto;
+}
+
+.sound p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sound div {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.meow-button {
+    background-color: #3882f6;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 8px 24px;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+/* footer ------------------------ */
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    text-align: center;
+    padding: 40px;
+}
