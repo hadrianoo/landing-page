@@ -40,7 +40,7 @@ landing-page/
 │
 ├── index.html
 ├── README.md
-├── style.css
+├── styles.css
 ├── images/
 |   └── kitten.jpg
 └── sounds/
