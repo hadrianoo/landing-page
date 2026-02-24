@@ -35,6 +35,7 @@ Live: https://hadrianoo.github.io/landing-page/
 
 ## Project Structure
 
+``` bash
 landing-page/
 │
 ├── index.html
@@ -44,7 +45,7 @@ landing-page/
 |   └── kitten.jpg
 └── sound/
     └── cat_sound.ogg
-
+```
 
 ## Future Improvements
 
