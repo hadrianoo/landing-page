@@ -43,7 +43,7 @@ landing-page/
 ├── style.css
 ├── images/
 |   └── kitten.jpg
-└── sound/
+└── sounds/
     └── cat_sound.ogg
 ```
 
